@@ -1,0 +1,47 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+input {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+input:focus {
+  border: 3px solid #555;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  border: none;
+  width: 30%;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  text-align: center;
+
+}
+
+h1 { 
+  color: #7c795d; 
+  font-family: 'Trocchi', 
+  serif; font-size: 45px;
+  font-weight: normal; 
+  line-height: 48px; 
+  margin: 0; 
+  text-align: center;}
+
